@@ -6,6 +6,7 @@
  * Static function in a class - Special to C++. Can invoke using object and . operator and classname and scope resolution operator.
  * 				These functions are allowed to access only static data & other static functions. Cannot access non-static data or non-statuc functions.
  */
+
 using namespace std;
 
 class Test
