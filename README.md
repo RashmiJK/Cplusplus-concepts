@@ -1,3 +1,3 @@
 # Cplusplus-concepts
 
-Advanced concepts
+Sample examples for c++ features
