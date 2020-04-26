@@ -14,7 +14,7 @@ Sample examples for c++ features
 |Unordered_multiset|
 |unordered_map|
 |Unordered_multimap|
-|
+
 
 
 | **Sequence containers**||
@@ -24,5 +24,5 @@ Sample examples for c++ features
 |list| double linked list
 |dequeue| Double ended queue + faster random access
 |forward_list| singly linked list
-|
+
 
