@@ -19,10 +19,13 @@ Sample examples for c++ features
 
 | **Sequence containers**||
 |---------|:---------------
-| array | non-reaizable array
+|array | non-reaizable array
 |vector| Dynamic array + faster random access
 |list| double linked list
 |dequeue| Double ended queue + faster random access
 |forward_list| singly linked list
 
 
+
+**Iterators**
+ ![](iterators.jpg)
