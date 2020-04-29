@@ -1,8 +1,8 @@
 # Cplusplus-concepts
 
-Sample examples for c++ features
+## Sample examples for c++ features
 
-## Standard Template Library
+### Standard Template Library
 
 |**Associative containers**||
 |------|:-----------------
@@ -23,9 +23,20 @@ Sample examples for c++ features
 |vector| Dynamic array + faster random access
 |list| double linked list
 |dequeue| Double ended queue + faster random access
-|forward_list| singly linked list
+|forward_list| singly linked list|
+|priority queues| keeps its elements ordered naturally
 
 
 
-**Iterators**
+### **Iterators**
  ![](iterators.jpg)
+
+
+ 
+ ### **Big(O) for various containers **
+
+ ![](graph.png)
+
+ | **Container**|**Insertion**|**Access**|**Erase**|**Find**|**Persistant Iterators**|
+ |---------|:---------------|:---|:----|:----|:----|:----|
+ |Vector/String| Back: O(1) or O(n) <br> Other: O(n)|O(1)|Back: O(1) <br> Other:O(n)| Sorted: O(log n) <br> Other: O(n) | No
