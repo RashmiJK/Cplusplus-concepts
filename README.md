@@ -38,5 +38,10 @@
  ![](graph.png)
 
  | **Container**|**Insertion**|**Access**|**Erase**|**Find**|**Persistant Iterators**
- |---------|:---------------|:---|:----|:----|:----
+ |----------------------|:----------------------|:----------------------|:----------------------|:----------------------|:----------------------
  |Vector/String| Back: O(1) or O(n) <br> Other: O(n)|O(1)|Back: O(1) <br> Other:O(n)| Sorted: O(log n) <br> Other: O(n) | No
+ |deque| Back/Front: O(1) <br> Other: O(n)|O(1)|Back/Front: O(1) <br> Other: O(n)|Sorted: O(log n) <br> Other: O(n) | Pointers only
+ | list/ forward_list| Back/Front: O(1) <br> With iterator: O(1) <br> Index: O(n)|Back/Front: O(1) <br> With iterator: O(1) <br> Index: O(n)| Back/Front: O(1) <br> With iterator: O(1) <br> Index: O(n)| O(n) | Yes
+ |set / map| O(log n)|-| O(log n)|O(log n)|Yes
+ |unordered_set / unordered_map|O(1) or O(n)|O(1) or O(n)|O(1) or O(n)|O(1) or O(n)| Pointers only
+ |priority_queue|O(log n)|O(1)|O(log n)|-|-
