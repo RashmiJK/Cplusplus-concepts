@@ -38,5 +38,5 @@
  ![](graph.png)
 
  | **Container**|**Insertion**|**Access**|**Erase**|**Find**|**Persistant Iterators**
- |---------|:---------------|:---|:----|:----|:----|:----
+ |---------|:---------------|:---|:----|:----|:----
  |Vector/String| Back: O(1) or O(n) <br> Other: O(n)|O(1)|Back: O(1) <br> Other:O(n)| Sorted: O(log n) <br> Other: O(n) | No
