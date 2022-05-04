@@ -30,5 +30,7 @@ int main()
 	//unique_ptr<Rectangle> P2(P1);
 	unique_ptr<Rectangle> P2;
 	P2 = move(P1);
+	
 	cout << P2->area() << endl;
+	cout << P1->area() << endl;
 }
