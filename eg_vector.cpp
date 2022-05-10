@@ -56,6 +56,12 @@ int main(int argc, char * argv[])
 	cout << "Size of the vector: " << vec.size() << endl;
 	print_vec(vec);
 
+	vec.push_back(2);
+	print_vec(vec);
+
+	std::sort(vec.begin(), vec.end());
+	print_vec(vec);
+
 }
 
 void print_vec(vector<int> vec)
