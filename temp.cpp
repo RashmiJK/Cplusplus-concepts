@@ -1,14 +1,16 @@
 #include <iostream>
+#include <string>
+#include <vector>
+#include <sstream>
 
 using namespace std;
 
 int main()
 {
-	//int i = static_cast<int>(2.2);
-	
-	int i = 13;
-	double *d = &i;
-	i = (int) d;
-	cout << i << endl << d << endl;
-	return 0;
+    int arr[5] = {1,4,8,12,16};
+    int* p;
+    p = arr;
+    cout << p << endl;
+    cout << *p++ << endl;
+    cout << p << endl;
 }

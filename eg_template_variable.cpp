@@ -15,6 +15,6 @@ T area_of_circle(const T &r)
 int main()
 {
     cout.precision(20);
-    cout << pi<long double> << " " << area_of_circle <long double>(3) << endl;
+    cout << pi<float> << "   "<< pi<long double> << " " << area_of_circle <long double>(3) << endl;
     return 0;
 }
