@@ -1,6 +1,20 @@
 # Cplusplus-concepts
 
-## Sample examples for c++ features
+## Key features
+| **topic** | **description** |
+|-------|:--------------------
+| References | They don't have pointers |
+| Qualifier is const | const int * p, int const *p, int * const p
+||
+| Diff b/w struct and class| default scope in struct is public and default is private in class
+||
+| Range based for loop |
+| Friend function and class |
+| Constructor in private scope|
+| virtual function and pure virtual function|
+| exception - try, catch, throw, std::exception |
+| functor = function object |
+| predicate| A predicate is a C++ function returning a boolean or an object having a bool operator() member. A unary predicate takes one argument, a binary takes two, and so on|
 
 ### Standard Template Library
 
@@ -22,9 +36,10 @@
 |array | non-reaizable array
 |vector| Dynamic array + faster random access
 |list| double linked list
-|dequeue| Double ended queue + faster random access
+|dequeue, queue, stack| Double ended queue + faster random access
 |forward_list| singly linked list|
 |priority queues| keeps its elements ordered naturally
+|pair and tuple| part of utility
 
 
 
@@ -59,8 +74,7 @@
  | explicit | when a constructor has only one parameter, it can be used to provide implicit type conversion.This can be avoided by using the keyword explicit in constructor declaration.
 
 
-### Member access specifiers
-| **Base Class**| **Derived Class** | **other objects**
-|:---------------|:----------------|:-----------------|:------------
-|test|
-|test 2|
+
+
+
+

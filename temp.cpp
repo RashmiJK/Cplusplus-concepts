@@ -1,16 +1,10 @@
 #include <iostream>
-#include <string>
 #include <vector>
-#include <sstream>
-
 using namespace std;
 
-int main()
-{
-    int arr[5] = {1,4,8,12,16};
-    int* p;
-    p = arr;
-    cout << p << endl;
-    cout << *p++ << endl;
-    cout << p << endl;
+int main() {
+
+    const vector<int> v1 = {1, 2, 3};
+    v1[1] = 9;
+    return 0;
 }
