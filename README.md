@@ -20,7 +20,8 @@
 
 |**Associative containers**||
 |------|:-----------------
-|set   | the value itself acts as a key  + ordered + key is unique + elements cannot be modified
+| vector, array|
+|set   | associative container + the value itself acts as a key  + sorted + key is unique + elements cannot be modified + search, removal, insertion => logarithmic complexity + underlying implementation is red-black tree
 |multiset| ordered + multiple elements of same value allowed
 |map| key value pair + ordered + key is unique
 |multimap| key value pair + ordered + key can hold multiple values
@@ -36,7 +37,7 @@
 |array | non-reaizable array
 |vector| Dynamic array + faster random access
 |list| double linked list
-|dequeue, queue, stack| Double ended queue + faster random access
+|dequeue, queue, stack| Double ended queue + faster random access. Stack, queue and prioroty_queues are implemented as container adaptors.Contianer adaptors are not full container classes, but classes that provide a specific interface relying on an object of one of the contianer classes such as deque or list.
 |forward_list| singly linked list|
 |priority queues| keeps its elements ordered naturally
 |pair and tuple| part of utility
