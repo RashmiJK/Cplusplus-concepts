@@ -70,7 +70,7 @@
  |static_cast|
  |Universal references|
  |Class declaration using keyword class and struct| Struch -> members defualt to public, class -> members default to private
- |const qualifier in fucntion declaration | function is const safe i.e cannot modify values. Any method that is called on a const-qualified object must be const safe. Rule of thumb is const methods can always be called from mutable and const objects. Non const methods can only be called by non const objects|int getv() const|const qualified function and object|
+ |const qualifier in fucntion declaration | function is const safe i.e cannot modify values. Any method that is called on a const-qualified object must be const safe. Rule of thumb is const methods can always be called from mutable and const objects. Non const methods can only be called by non const objects. const method<=const obj & normal obj, non-const method <= normal obj |int getv() const|const qualified function and object|
  |Implicit constructor, implicit copy constructor, implicit copy ('=') operator overloading| CL o1 = o2 : implcit copy operator, just o2 = o1 : implicit copy operator. Rule of three is: c++ provides implicit methods for copy constructor, destructor and the copy operator. The rule says, if you find yourself needing to provide any one of these 3 methods, you should probably provide all of them.
  | explicit | when a constructor has only one parameter, it can be used to provide implicit type conversion.This can be avoided by using the keyword explicit in constructor declaration.
 

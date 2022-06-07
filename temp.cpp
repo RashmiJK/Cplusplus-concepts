@@ -4,7 +4,13 @@ using namespace std;
 
 int main() {
 
-    const vector<int> v1 = {1, 2, 3};
-    v1[1] = 9;
+    int x = 11;
+    const int& y = x;
+
+    cout << "x = " << x << endl;
+    cout << "y = " << y << endl;
+    cout << "&x = " << &x << endl;
+    cout << "&y = " << &y << endl;
+
     return 0;
 }
