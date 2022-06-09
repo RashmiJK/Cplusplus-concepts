@@ -35,7 +35,7 @@ vector<int> Solution::frequencySort(vector<int>& input_arr) // reference to vect
     for(auto x:hash_value_to_freq)
         cout << x.first << " : " << x.second << endl;
 
-    /* Transfer the contents of unordered_map into 2 domesional vector
+    /* Transfer the contents of unordered_map into 2 dimensional vector
      * so that, sort can be used
      */
     vector<vector<int>> v;

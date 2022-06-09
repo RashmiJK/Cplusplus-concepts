@@ -22,8 +22,8 @@ using namespace std;
 
 int main()
 {
-    int arr[] = {5, 5, 5, 5};
-    multiset<int> my_set;
+    int arr[] = {5, 15, 3, 25};
+    multiset<int> my_set; // multiset automatically orders the content and allows duplicates. Hence, not good to use set, but good to use multiset
     int cost = 0;
 
     for(int i = 0; i < (sizeof(arr)/sizeof(arr[0])); i++)
@@ -40,7 +40,7 @@ int main()
         int temp = 0;
 
         temp = *it + *(++it);
-        my_set.insert(temp);
+        my_set.insert(temp); // the added sum should also have to go into the container in the order
         cost += temp;
         my_set.erase(prev_it);
         my_set.erase(it);
