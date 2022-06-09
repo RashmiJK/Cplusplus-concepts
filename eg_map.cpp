@@ -16,7 +16,6 @@ int main()
 	string str;
 	pair<int,string> p;
 
-	
 	cout << "Inserting..."<<endl;
 	while(temp >= 0)
 	{
