@@ -14,7 +14,7 @@ T find_max(T x, T y)
 	return (x > y)? x : y;
 }
 
-//template <class C>
+//template function
 template <typename T>
 void sort(T a[], int n)
 {
@@ -33,6 +33,7 @@ void sort(T a[], int n)
 }
 
 /* when class defines something that is independent of the data type
+ * Array is a template class. It can be Array of anything.
  */
 template <typename F>
 class Array
