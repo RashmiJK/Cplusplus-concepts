@@ -28,8 +28,8 @@ public:
         int e=v.size();  
         if(e<n-1){return -1;}  // If  number of edges(cables) is less than the number of (nodes -1) then we cannot connect all the pcs. Hence , return -1;
         
-        vector<int>graph[n];
-        vector<int>vis(n,0);
+        vector<int>graph[n]; // graph has n elements and each element is vector<int>
+        vector<int>vis(n,0); // create a vector of size n with all values as 0
         
         for(int i=0;i<e;i++){
             graph[v[i][0]].push_back(v[i][1]);
